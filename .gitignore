@@ -1,0 +1,4 @@
+.jj/
+**/zig-cache/
+.zig-cache/
+.direnv/
