@@ -31,7 +31,9 @@
         let
           pkgs = nixpkgsFor.${system};
           baseDeps = with pkgs; [
+            jujutsu
             zig
+            zls
           ];
         in
         {
